@@ -1,11 +1,10 @@
-// Function definition
 function calculateTotalBill(pricePerItem, quantity) {
-    // Calculate total bill amount
+    // Calculate total amount
     var totalBill = pricePerItem * quantity;
-    // Return the total bill amount
+    // Return the total amount
     return totalBill;
 }
-// Calling the function
+// Calling the function named CalculateTotalBill
 var priceOfItem = 10; // Price per item
 var quantityPurchased = 5; // Quantity purchased
 // Call the function and store the result in a variable
